@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image" href="icon.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Baba's official website</title>
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #D2D2D2;
+            background-image:
+            repeating-linear-gradient(
+                to right, transparent 0 100px,
+                #25283b22 100px 101px
+            ),
+            repeating-linear-gradient(
+                to bottom, transparent 0 100px,
+                #25283b22 100px 101px
+            );
+        }
+        
+        body::before{
+            position: absolute;
+            width: min(1400px, 90vw);
+            top: 10%;
+            left: 50%;
+            height: 90%;
+            transform: translateX(-50%);
+            content: '';
+            background-image: url(images/bg.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: top center;
+            pointer-events: none;
+        }
+    </style>
+    <link rel="stylesheet" href="drgn.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="slider" style="--quantity: 10">
+            <div class="item" style="--position: 1"><img src="baconsilog.jpg" alt=""></div>
+            <div class="item" style="--position: 2"><img src="bacsilog.webp" alt=""></div>
+            <div class="item" style="--position: 3"><img src="sad.webp" alt=""></div>
+            <div class="item" style="--position: 4"><img src="silog.jpg" alt=""></div>
+            <div class="item" style="--position: 5"><img src="egg.jpg" alt=""></div>
+            <div class="item" style="--position: 6"><img src="longsilog.jpg" alt=""></div>
+            <div class="item" style="--position: 7"><img src="lumsilog.jpeg" alt=""></div>
+            <div class="item" style="--position: 8"><img src="as.jpg" alt=""></div>
+            <div class="item" style="--position: 9"><img src="hamegg.jpg" alt=""></div>
+            <div class="item" style="--position: 10"><img src="hotsilog.jpg" alt=""></div>
+        </div>
+        <div class="content">
+            <h1 data-content="BSIT-2C">
+                BSIT-2C
+            </h1>
+            <div class="author">
+                <h2>BSIT-2C</h2>
+                <p><b>Title:</b></p>
+                <p>
+                    Brochoure Website
+                </p>
+                <div>
+                <button class="lower-right-button"><a href="Home page.html">Home</a></button>
+                </div>
+            </div>
+            <div class="model"></div>
+            
+        </div>
+    </div>
+        
+</body>
+</html>
